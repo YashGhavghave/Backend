@@ -25,14 +25,14 @@ const myLogger = function (req, res, next) {
 
 app.use(function(req,res,next){
   // req.send('I am middleware 777')   
-  console.log('hello World')
+  console.log('hello Worldbhvgvg')
   next()
 })
 
 app.use(myLogger)
 
 app.get('/', (req, res) => {
-  res.send('Hello World!')
+  res.send('Hello Wovgggd!')
 })
 
 app.listen(3000)
